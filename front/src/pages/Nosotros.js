@@ -1,3 +1,4 @@
+import '../styles/Nosotros.css'
 import React from 'react';
 
 const Nosotros = (props) => {

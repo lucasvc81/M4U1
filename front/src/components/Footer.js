@@ -1,9 +1,12 @@
+import '../styles/Footer.css';
+import React from 'react';
+
 const Footer = (props) => {
     return (
-<div className="holder">
+        <footer>
             <p>Todos los derechos reservados &copy; 2024 - Lucas Vieiro Cobas.-</p>
-        </div>
-    )
-}
+        </footer>
+    );
+};
 
 export default Footer;

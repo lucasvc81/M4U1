@@ -1,3 +1,4 @@
+import '../styles/Galeria.css'
 import React from 'react';
 
 const Galeria = (props) => {
