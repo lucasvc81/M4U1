@@ -1,15 +1,19 @@
+import { Link } from "react-router-dom"
+
 const Nav = (props) => {
     return (
-        <div>
-              <ul className="holder">
-                <li><a class="activo" href="index.html">Home</a></li>
-                <li><a href="nosotros.html">Sobre nosotros</a></li>
-                <li><a href="servicios.html">Servicios</a></li>
-                <li><a href="galeria.html">Galeria</a></li>
-                <li><a href="novedades.html">Novedades</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
+        <nav>
+            <div>
+              <ul>
+                <li><Link to="/">Home</Link></li>
+                <li><Link to="/nosotros">Nosotros</Link></li>
+                <li><Link to="/servicios">Servicios</Link></li>
+                <li><Link to="/galeria">Galeria</Link></li>
+                <li><Link to="/novedades">Novedades</Link></li>
+                <li><Link to="/contacto">Con</Link></li>
             </ul>
-        </div>
+            </div>
+        </nav>
     )
 }
 
