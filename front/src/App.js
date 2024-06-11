@@ -19,11 +19,11 @@ function App() {
           <Nav />
           <Routes>
             <Route path="/" element={<HomePage />} />
-            <Route path="nosotros" element={<Nosotros />} />
-            <Route path="servicios" element={<Servicios />} />
-            <Route path="galeria" element={<Galeria />} />
-            <Route path="novedades" element={<Novedades />} />
-            <Route path="contacto" element={<Contacto />} />
+            <Route path="/nosotros" element={<Nosotros />} />
+            <Route path="/servicios" element={<Servicios />} />
+            <Route path="/galeria" element={<Galeria />} />
+            <Route path="/novedades" element={<Novedades />} />
+            <Route path="/contacto" element={<Contacto />} />
           </Routes>
         </BrowserRouter>
 
